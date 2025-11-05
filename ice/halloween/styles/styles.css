@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Cardo:wght@400;700&display=swap');
+
+/* 🌿 Base setup */
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top, #ebe3c4 0%, #d6c79c 40%, #b9a47b 100%);
+  font-family: 'Cardo', serif;
+  color: #3b2f1a;
+  line-height: 1.6;
+}
+
+/* 🏡 Wrapper */
+#wrapper {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #f8f4e3;
+  padding: 30px;
+  border: 3px solid #7b6848;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(80, 60, 30, 0.3);
+}
+
+/* 🪶 Header */
+header {
+  background: linear-gradient(to bottom, #83764f, #5d5138);
+  border-bottom: 3px solid #3d331f;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 🌾 Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav li {
+  font-family: 'IM Fell English SC', serif;
+  color: #e8dfc3;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+nav li:hover {
+  color: #fff6d2;
+  transform: scale(1.1);
+}
+
+/* ✨ Title */
+main h1 {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 3em;
+  text-align: center;
+  color: #3f351f;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px #cbbf94;
+  border-bottom: 2px solid #c7b37a;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* 🌄 Image */
+main img {
+  display: block;
+  margin: 20px auto;
+  width: 390px;
+  border-radius: 50%;
+  border: 4px solid #7b6848;
+  box-shadow: 0 0 20px rgba(60, 40, 20, 0.4);
+}
+
+/* 📜 Sections */
+section {
+  background: #f0e8cc;
+  border-left: 6px solid #9a8658;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 25px 0;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+section:hover {
+  background: #f8f0d8;
+  transform: translateY(-3px);
+}
+
+section h2 {
+  font-family: 'IM Fell English SC', serif;
+  color: #544428;
+  border-bottom: 1px solid #b8a97c;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+}
+
+section p {
+  font-size: 1.05em;
+  color: #463923;
+}
+
+/* 🍻 Footer */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  border-top: 2px solid #9a8658;
+  color: #4a3a22;
+  font-family: 'IM Fell English SC', serif;
+  background: linear-gradient(to top, #83764f, #5d5138);
+  border-radius: 0 0 10px 10px;
+  margin-top: 30px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
