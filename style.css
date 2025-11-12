@@ -138,3 +138,18 @@ footer h2 {
 .contact-form button:hover {
   background-color: #45a049;
 }
+
+.ice{
+display: flex;
+flex-direction: column; 
+align-items: center;   
+gap: 10px;  
+}
+
+.ice h4 {
+  max-width: 600px;      /* limits how wide the text can get */
+  text-align: center;    /* centers the paragraph text */
+  line-height: 1.5;      /* adds breathing room between lines */
+  margin: 10px 0;        /* space above and below */
+  font-weight: normal;   /* makes it look more like a paragraph */
+}
