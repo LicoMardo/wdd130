@@ -88,3 +88,53 @@ main {
   flex-direction: column;
   align-items: center;
 }
+footer {
+  background-color: #f2f2f2;
+  padding: 30px;
+  text-align: center;
+  margin-top: 40px;
+  border-top: 2px solid #ccc;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  align-self: flex-start;
+  font-weight: bold;
+  color: #444;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
